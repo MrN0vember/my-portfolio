@@ -17,8 +17,8 @@ nav {
     background-color: rgb(44, 48, 57);
     background-color: rgba(44, 48, 57, 0.3);
     text-align: center;
-    padding-bottom: 10px;
-    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-top: 15px;
     position: -webkit-sticky; 
     position: sticky;
     top: 0;
@@ -69,20 +69,28 @@ nav {
         width: 150x;
         border-radius: 50%;
         border: 5px solid rgb(177, 177, 177);
-        border: 5px solid rgba(179, 178, 178, 0.1);
+        border: 5px solid rgba(179, 178, 178, 0.2);
        }
 
-    .home h1, h2{
+    .home h1{
         text-align: center;
         font-size: 50px;
         margin-bottom: 0;
 
     }
 
+    .home-hr {
+        
+        background:
+        border-radius: 6px;
+    }
+
     .home h2 {
+        text-align: center;
+        font-size: 45px;
         font-style: italic;
         margin-top: 0;
-        text-align: center;
+        
     }
 
 .social ul{
@@ -115,6 +123,6 @@ nav {
 /* About me */
 .aboutme {
     background-color: #26363d;
-    opacity: .7;
+    
     color: white;
 }
