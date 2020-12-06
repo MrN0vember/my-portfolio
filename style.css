@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Montserrat&family=Roboto+Mono&display=swap');
+
+
+
+body{ 
+     margin: 0 0;
+     background:linear-gradient(  rgba(0, 0, 0, .3), rgba(0, 0, 0, .3) ),   
+      url("AdobeStock_319681541.jpeg");
+     background-attachment: fixed; 
+     background-size: cover;
+     font-family: 'Roboto Mono', monospace;
+}
+
+
+ /*nav bar */
+nav {
+    background-color: rgb(44, 48, 57);
+    background-color: rgba(44, 48, 57, 0.3);
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
+}
+
+.navbar a 
+{
+    display: inline;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+   
+    
+    
+}
+
+.navbar a:hover {
+    border-bottom: 1px solid;
+    border-color: rgb(255, 255, 255);
+}
+/* nav bar end */
+
+/* home */ 
+
+.home{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ font-family: 'Anonymous Pro', monospace;
+    color: #fff;
+    }
+
+    #james-avatar {
+        position: relative;
+        height: 158px;
+        width: 150x;
+        border-radius: 50%;
+        border: 5px solid rgb(177, 177, 177);
+        border: 5px solid rgba(179, 178, 178, 0.1);
+       }
+
+    .home h1, h2{
+        text-align: center;
+
+    }
+
+
+
+ .social li {
+    
+    display: inline;
+    color: white;
+    text-decoration: none
+    
+}
+
+.social a {
+    color: white;
+    font-size: 35px;>
+    padding-left: 10px;
+    padding- right: 10px;
+    
+
+    
+   
+}
+
+.social a:hover { 
+        opacity: .75;
+}
+
+/* About me */
+.aboutme {
+    background-color: #26363d;
+    opacity: .7;
+    color: white;
+}
