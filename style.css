@@ -55,6 +55,14 @@ nav {
     color: #fff;
     }
 
+    .flex-container {
+     display: flex;   
+     direction: column;   
+     justify-content: center;
+     align-items: center;
+     margin: 0, auto;
+    }
+
     #james-avatar {
         position: relative;
         height: 158px;
@@ -66,10 +74,20 @@ nav {
 
     .home h1, h2{
         text-align: center;
+        font-size: 50px;
+        margin-bottom: 0;
 
     }
 
+    .home h2 {
+        font-style: italic;
+        margin-top: 0;
+        text-align: center;
+    }
 
+.social ul{
+    padding: 0;
+}
 
  .social li {
     
@@ -81,9 +99,9 @@ nav {
 
 .social a {
     color: white;
-    font-size: 35px;>
+    font-size: 35px;
     padding-left: 10px;
-    padding- right: 10px;
+    padding-right: 10px;
     
 
     
