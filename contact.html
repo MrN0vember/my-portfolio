@@ -20,7 +20,7 @@
     <h1>Get in touch</h1>
 </header>
  <main>
-     <form class="contact-form">
+     <form onsubmit="submitMessage()" onreset="clearMessage()" class="contact-form">
         <label for="firstname">First Name:</label>
         <br>
         <input type="text" id="firstname" name="firstname">
@@ -37,8 +37,19 @@
         <br>
         <textarea name="comments" id="comments" cols="30" rows="10" class="comments"></textarea>
         <br>
-        <input type="submit" id="submit" value="Transmit"> 
+        <input type="submit"  id="submit" value="Transmit"> 
+        <script>
+        function submitMessage() {
+     alert("Transmission Complete");
+    }
+        </script>
+
         <input type="reset" id="reset" value="Distrupt">
+        <script>
+            function clearMessage() {
+         alert("Transmission Aborted");
+        }
+        </script>
 </main>  
 </body>
 </html>
